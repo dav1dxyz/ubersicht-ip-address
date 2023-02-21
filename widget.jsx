@@ -44,7 +44,7 @@ export const render = ({ data, error }) => {
 	) : (
 		<div>
 			<H2txt>IP address:</H2txt>
-			<Gradient>12.345.67.890</Gradient>
+			<Gradient>{data.origin}</Gradient>
 		</div>
 	)
 }
